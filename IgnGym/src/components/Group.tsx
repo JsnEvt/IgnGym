@@ -15,7 +15,7 @@ export function Group({ name, isActive, ...rest }: Props) {
       rounded='md'
       justifyContent='center'
       alignItems='center'
-      overflow='hidden'
+      overflow='hidden' //caso algo nao caiba dentro dele, nao extrapolar as bordas
       isPressed={isActive}
       _pressed={{
         borderColor: 'green.500',

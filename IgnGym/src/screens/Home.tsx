@@ -5,7 +5,7 @@ import { useNavigation, useFocusEffect } from '@react-navigation/native'
 import { AppNavigatorRoutesProps } from '@routes/app.routes'
 import { VStack, FlatList, HStack, Heading, Text, useToast } from 'native-base'
 import { useState, useEffect, useCallback } from 'react'
-import { api } from '@services/api'
+import { api } from '@services/api_ref'
 import { AppError } from '@utils/AppError'
 import { ExerciseDTO } from '@dtos/ExerciseDTO'
 import { Loading } from '@components/Loading'
@@ -31,7 +31,7 @@ export function Home() {
 
     } catch (error) {
       const isAppError = error instanceof AppError;
-      const title = isAppError ? error.message : 'Nao foi possível carregar os grupos musculares.'
+      const title = isAppError ? error.message : 'Não foi possível carregar os grupos musculares.'
       toast.show({
         title,
         placement: 'top',
@@ -110,7 +110,7 @@ export function Home() {
               renderItem={({ item }) => (
                 <ExerciseCard
                   onPress={() => handleOpenExerciseDetails(item.id)}
-                  data={item}
+                  data={item} //passando como parametros para o ExerciseCard para atualizar cada cartao a ser exibido
                 />
               )}
               showsVerticalScrollIndicator={false}

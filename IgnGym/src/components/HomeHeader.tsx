@@ -5,7 +5,7 @@ import { UserPhoto } from './UserPhoto';
 import { TouchableOpacity } from 'react-native';
 import { useAuth } from '@hooks/useAuth';
 import userPhotoDefault from '@assets/userPhotoDefault.png'
-import { api } from '@services/api';
+import { api } from '@services/api_ref'
 
 export function HomeHeader() {
 

@@ -2,7 +2,7 @@ import { Heading, HStack, Image, Text, VStack, Icon } from 'native-base';
 import { TouchableOpacity, TouchableOpacityProps } from 'react-native';
 import { Entypo } from '@expo/vector-icons'
 import { ExerciseDTO } from '@dtos/ExerciseDTO';
-import { api } from '@services/api'
+import { api } from '@services/api_ref'
 
 type Props = TouchableOpacityProps & {
   data: ExerciseDTO

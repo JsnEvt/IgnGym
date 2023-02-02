@@ -15,7 +15,7 @@ import { useAuth } from '@hooks/useAuth'
 
 import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { api } from '@services/api'
+import { api } from '@services/api_ref'
 import { AppError } from '@utils/AppError'
 
 const PHOTO_SIZE = 33
@@ -99,6 +99,7 @@ export function Profile() {
         }
 
         const fileExtension = photoSelected.assets[0].uri.split('.').pop()
+        // console.log(fileExtension)
         const photoFile = {
           name: `${user.name}.${fileExtension}`.toLowerCase(),
           uri: photoSelected.assets[0].uri,
@@ -106,7 +107,6 @@ export function Profile() {
         } as any
         //photoFile contem as informacoes q precisamos para enviar para o backend.
 
-        console.log(photoFile)
 
         const userPhotoUploadForm = new FormData()
         userPhotoUploadForm.append('avatar', photoFile)
@@ -117,9 +117,12 @@ export function Profile() {
           }
         })
 
+
         const userUpdated = user
         userUpdated.avatar = avatarUpdatedResponse.data.avatar
         updateUserProfile(userUpdated)
+
+        // console.log(userUpdated)
 
         toast.show({
           title: 'Foto atualizada.',
