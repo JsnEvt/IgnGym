@@ -5,7 +5,7 @@ Aplicativo mobile para acompanhamento das atividades físicas realizadas em uma 
 O aplicativo dispõe de uma interface para o usuário marcar uma série de atividades físicas e registrá-la em seu histórico e assim manter a regularidade de suas atividades. O histórico por sua vez, listará as atividades realizadas, agrupadas por data, favorecendo a motivação e a distribuição regular dos exercícios, melhorando a eficácia dos resultados.
 
 Tecnologias/ferramentas utilizadas:
-### Front-End
+### Front-end
 - React
 - Expo
 - Native-Base
@@ -63,4 +63,6 @@ Ao selecionar, redimensionar e cortar, o aplicativo armazenará a foto no banco 
 
 
 # Segurança
-O aplicativo faz uso do recurso de autenticação (token) para logar o usuário e navegar pelas telas. Quando o token é expirado durante a navegação, o aplicativo, juntamente com o back-end se encarregará de gerar um novo token para que a navegação seja fluida.
+O aplicativo faz uso do recurso de autenticação (token) para logar o usuário e navegar pelas telas. Quando o token é expirado durante a navegação, o back-end se encarregará de gerar um novo token para que a navegação seja fluida.
+
+<sub> By Jason Everton 04/02/2023 </sub>
