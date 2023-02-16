@@ -4,26 +4,6 @@ Aplicativo mobile para acompanhamento das atividades físicas realizadas em uma 
 ## Proposta
 O aplicativo dispõe de uma interface para o usuário marcar uma série de atividades físicas e registrá-la em seu histórico e assim manter a regularidade de suas atividades. O histórico por sua vez, listará as atividades realizadas, agrupadas por data, favorecendo a motivação e a distribuição regular dos exercícios, melhorando a eficácia dos resultados.
 
-Tecnologias/ferramentas utilizadas:
-### Front-end
-- React
-- Expo
-- Native-Base
-- Stack-Navigator / Bottom-Navigator
-- Image Picker
-- Toast
-- React-Hook-Forms
-- Context
-- Schema-Validations/Yup
-
-### Back-end
-- Axios
-- Interceptors
-- Autenticação JWT
-- Async Storage
-- Token/refresh-token
-
-
 # O Aplicativo
 
 ## TELA 0 (Login e criação de conta)
