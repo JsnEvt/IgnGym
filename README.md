@@ -53,9 +53,13 @@ Ao clicar em quaisquer dos item relacionados, o aplicativo redirecionará para a
 
 Ao clicar no botão “Marcar como realizado”, o aplicativo registrará a atividade no banco de dados e redirecionará para a tela de histórico que conterá toda as atividades realizadas pelo usuário durante todo o período agrupado por data.
 
+![detalhe_do_exercicio](https://github.com/JsnEvt/ign_gym/blob/main/img/detalhe240x520.png)
+
 ## TELA 3 (Histórico)
 O histórico de exercícios relaciona as atividades físicas marcadas como realizadas na etapa anterior, agrupados por data, exibindo um “cartão” que informa o grupo da atividade, o nome do exercício realizado e a hora em que foi executado.
 A qualquer momento, com o usuário logado, esta tela poderá ser acessada através do menu inferior da aplicação – item: histórico.
+
+![historico](https://github.com/JsnEvt/ign_gym/blob/main/img/lista_exercicios_realizados240c520.png)
 
 ## TELA 4 (Perfil)
 Através do menu inferior, temos acesso ao perfil do usuário, onde podemos adicionar/alterar foto do perfil, alterar o nome para exibição na tela inicial e/ou alterar a senha de acesso.
@@ -65,8 +69,10 @@ Abaixo, temos 3 campos para alteração de senha, à saber: Senha antiga, Nova s
 Ao clicar em “Alterar foto”, o usuário será direcionado para uma lista de fotos disponíveis no dispositivo, permitindo escolher e redimensionar para enquadrar a foto desejada. Esta foto não poderá ser maior do que 5Mb. 
 Ao selecionar, redimensionar e cortar, o aplicativo armazenará a foto no banco de dados, atualizará a foto do perfil e o perfil exibido assim que o usuário entra na aplicação (TELA1). 
 
+![perfil](https://github.com/JsnEvt/ign_gym/blob/main/img/perfil1240x520.png)
+
 
 # Segurança
 O aplicativo faz uso do recurso de autenticação (token) para logar o usuário e navegar pelas telas. Quando o token é expirado durante a navegação, o back-end se encarregará de gerar um novo token para que a navegação seja fluida.
 
-<sub> By Jason Everton 04/02/2023 </sub>
+<sub> Rodrigo Gonçalves/Jason Everton 04/02/2023 - Ignite(Rocketseat)</sub>
