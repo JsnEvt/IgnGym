@@ -34,6 +34,8 @@ O e-mail deverá respeitar a convenção.
 A senha e a confirmação de senha deverão coincidir. Caso não ocorra, o aplicativo lançará um erro, impedindo o prosseguimento.
 Ocorrendo o cadastramento com sucesso, o aplicativo redirecionará para a primeira rota da aplicação com o usuário autenticado e registrado no banco de dados.
 
+![tela_login](https://github.com/JsnEvt/ign_gym/blob/main/img/login240x520.png)
+
 ## TELA 1 (Início da aplicação / seleção de grupos)
 A tela inicial do usuário logado, consiste em um painel na parte superior com a foto do usuário, nome, link de saída da aplicação, botões para seleção por grupo de atividades físicas e a lista de exercícios agrupados pelos grupos selecionados.
 Por padrão, o usuário não terá foto definida no perfil. Isto poderá ser feito. Falarei disso quando tratar acerca do perfil do usuário.
