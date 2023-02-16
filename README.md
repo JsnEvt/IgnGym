@@ -42,6 +42,8 @@ Os grupos são: “Antebraço”, “Bíceps”, “Costas”, “Ombro”, “P
 Esta tela fornece a possibilidade do usuário escolher a parte do corpo que quer trabalhar, selecionar o grupo correspondente e obter a lista de atividades que pertence ao grupo selecionado.
 Cada item relacionado fornece o nome da atividade, a quantidade de séries e a quantidade de repetições.
 
+![tela1](https://github.com/JsnEvt/ign_gym/blob/main/img/tela1240x520.png)
+
 
 
 ## TELA  2 (Detalhes do exercício)
