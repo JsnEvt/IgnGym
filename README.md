@@ -73,7 +73,7 @@ ___
 ```bash
 
 # Navegue até o diretório
-$ cd api
+$ cd IgnGym_backend
 
 # Instale as dependências necessárias
 $ npm install
@@ -90,7 +90,7 @@ ___
 ```bash
 
 # Com o back-end rodando, abra um novo terminal e navegue até o diretório
-$ cd mobile
+$ cd IgnGym
 
 # Instale as dependências necessárias
 $ npm install
