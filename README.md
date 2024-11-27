@@ -20,23 +20,33 @@ Além disso, toda ela funciona com o uso do Async Storage, ou seja, se você fec
 
 ## TELA 1 (Login e criação de conta)
 
-![tela_login](https://github.com/JsnEvt/ign_gym/blob/main/img/login240x520.png)
+<div align="center">
+  <img src="https://github.com/JsnEvt/ign_gym/blob/main/img/login240x520.png" alt="Tela de Login">
+</div>
 
 ## TELA 2 (Início da aplicação / seleção de grupos)
 
-![tela1](https://github.com/JsnEvt/ign_gym/blob/main/img/tela1240x520.png)
+<div align="center">
+  <img src="https://github.com/JsnEvt/ign_gym/blob/main/img/tela1240x520.png" alt="Selecao de grupos">
+</div>
 
 ## TELA  3 (Detalhes do exercício)
 
-![detalhe_do_exercicio](https://github.com/JsnEvt/ign_gym/blob/main/img/detalhe240x520.png)
+<div align="center">
+  <img src="https://github.com/JsnEvt/ign_gym/blob/main/img/detalhe240x520.png" alt="Detalhes">
+</div>
 
 ## TELA 4 (Histórico)
 
-![historico](https://github.com/JsnEvt/ign_gym/blob/main/img/lista_exercicios_realizados240c520.png)
+<div align="center">
+  <img src="https://github.com/JsnEvt/ign_gym/blob/main/img/lista_exercicios_realizados240c520.png" alt="Historico">
+</div>
 
 ## TELA 5 (Perfil)
 
-![perfil](https://github.com/JsnEvt/ign_gym/blob/main/img/perfil1240x520.png)
+<div align="center">
+  <img src="https://github.com/JsnEvt/ign_gym/blob/main/img/perfil1240x520.png" alt="Perfil">
+</div>
 
 # Segurança
 O aplicativo faz uso do recurso de autenticação (token) para logar o usuário e navegar pelas telas. Quando o token é expirado durante a navegação, o back-end se encarregará de gerar um novo token para que a navegação seja fluida.
